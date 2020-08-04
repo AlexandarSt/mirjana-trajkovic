@@ -314,8 +314,9 @@ p {
     transition-property: opacity, filter;
     transition-property: opacity, filter, -webkit-filter;
 }
+
 .navbar-white .hamburger-label {
-    color: #fff;
+    color: #17415A;
 }
 .hamburger-label {
     display: block;
@@ -350,7 +351,7 @@ p {
 .navbar-white .hamburger-inner,
 .navbar-white .hamburger-inner:after,
 .navbar-white .hamburger-inner:before {
-    background-color: #fff;
+    background-color: #17415A;
     transition: transform .3s ease .2s, background-color .3s ease .2s, opacity .3s ease .3s;
 }
 .hamburger-inner:after,

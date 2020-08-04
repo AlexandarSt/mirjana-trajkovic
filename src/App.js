@@ -1,5 +1,5 @@
 import React from 'react';
-import {Switch, Route} from 'react-router-dom';
+import {Switch, Route, withRouter} from 'react-router-dom';
 import Header from './components/header/header.component';
 import Footer from './components/footer/footer.component';
 import HomePage from './pages/homepage/homepage.page';
@@ -9,7 +9,7 @@ import Contact from './pages/contact/contact.page';
 import './App.css';
 
 
-function App() {
+function App(props) {
 
   return (
     <div>
@@ -20,9 +20,9 @@ function App() {
         <Route exact path='/work' component={Work} />
         <Route exact path='/contact' component={Contact} />
       </Switch>
-      <Footer />  
+      {props.location.pathname !== '/' ? <Footer /> : ''}
     </div>
   );
 }
 
-export default App;
+export default withRouter(App);

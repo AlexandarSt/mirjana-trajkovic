@@ -78,6 +78,10 @@ input:focus, textarea:focus {
     color: #038788;
 }
 
+input:focus, textarea:focus{
+	border-bottom: 2px solid #038788 !important;
+}
+
 #button-blue{
 	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 	float:left;

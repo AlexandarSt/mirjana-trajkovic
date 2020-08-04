@@ -1,0 +1,27 @@
+.contact-info{
+    background: #17415A;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    
+    h5{
+        color: #E2E5E4;
+        font-size: 16px;
+        margin: 0;
+
+        i{
+            padding: 10px;
+            color: #038788;
+        }
+    }
+
+    h6{
+        color: darkgray;
+        font-size: 14px;
+        padding-bottom: 20px;
+        
+    }
+}
