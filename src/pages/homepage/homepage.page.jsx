@@ -12,13 +12,13 @@ import './homepage.styles.scss';
 const HomePage = () => {
 
 	useEffect(() => {
-		Aos.init({duration: 1000})
+		Aos.init({duration: 500})
 	}, [])
 
 	return(
 	<div className='home'>
 		<div className='home-bckgrnd'></div>
-		<div data-aos='fade-in' className='section-about'>
+		<div data-aos='flip-up' className='section-about'>
 			<div className='about-text'>
 				<h2>Hello!</h2>
 				<h4>I'm Mimi and i like to smoke pot and you can call me Rasta Lion ;)</h4>
