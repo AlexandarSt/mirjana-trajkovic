@@ -1,10 +1,24 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Animated} from 'react-animated-css';
+import Recaptcha from 'react-recaptcha';
 
 import './form.styles.scss';
 
 const Form = () => {
 
+    const [state, setState] = useState({isVerified: false})
+
+    const verifyCallback = (response) => {
+        if (response) {
+            setState({
+                isVerified: true
+            })
+        }
+    }
+
+    const handleLoad = () => {
+        console.log('reCaptcha loaded')
+    }
     return(
     <Animated animationIn="fadeInLeft" animationInDuration={1000} isVisible={true}>
         <div className='form-div'>
@@ -20,8 +34,14 @@ const Form = () => {
                 </p>
                 <div className="submit">
                     <button type="submit" value="SEND" id="button-blue">SEND</button>
-                    {/*<div className="ease"></div>*/}
+                    
                 </div>
+                <Recaptcha
+                        sitekey="6LdY9roZAAAAAN9F8Z-LqdXGFTmWwZmjc0WonavE"
+                        render="explicit"
+                        verifyCallback={verifyCallback}
+                        onloadCallback={handleLoad}
+                    />
             </form>
         </div>
     </Animated>    

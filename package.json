@@ -13,6 +13,7 @@
     "react-animated-css": "^1.2.1",
     "react-dom": "^16.13.1",
     "react-google-maps": "^9.4.5",
+    "react-recaptcha": "^2.3.10",
     "react-router-dom": "^5.2.0",
     "react-router-scroll-top": "^0.2.1",
     "react-scripts": "3.4.1",

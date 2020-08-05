@@ -1,7 +1,6 @@
 import React from 'react';
 import { compose, withProps } from 'recompose';
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from 'react-google-maps';
-import {Animated} from 'react-animated-css';
 
 const styles = require('../google-maps/GoogleMapStyles.json');
 

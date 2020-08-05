@@ -1,7 +1,7 @@
 import React,{useEffect} from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import Logo from '../../assets/rastamimi.jpg';
+import Picture from '../../assets/mitrajkovic.jpg';
 
 import './homepage.styles.scss';
 // import './custom.css';
@@ -20,11 +20,25 @@ const HomePage = () => {
 		<div className='home-bckgrnd'></div>
 		<div data-aos='flip-up' className='section-about'>
 			<div className='about-text'>
-				<h2>Hello!</h2>
-				<h4>I'm Mimi and i like to smoke pot and you can call me Rasta Lion ;)</h4>
+				<h4>About Me</h4>
+				<p>Passionate designer who loves 
+					simplicity in things and crafts 
+					beautiful designs with love.</p>
+				<ul>
+					<li>
+						<a href='no-refference'>
+						<i className="fa fa-linkedin-square" aria-hidden="true"></i>
+						</a>
+					</li>
+					<li>
+						<a href='mailto:mikicavr@gmail.com'>
+						<i className="far fa-envelope"></i>
+						</a>
+					</li>
+				</ul>	
 			</div>
 			<div className='about-picture'>
-				<img src={Logo} alt='Rasta'/>
+				<img src={Picture} alt='Mirjana Trajkovic'/>
 			</div>
 		</div>
 	</div>	

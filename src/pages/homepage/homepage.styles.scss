@@ -22,7 +22,7 @@
     }
 
     .section-about{
-    background: #F2CC19;
+    background: white;
     display: flex;
     gap: 10px;
     max-width: calc(1140px - 30px );
@@ -34,14 +34,49 @@
     box-shadow: 10px 10px 100px rgba(0, 0, 0, 1);
         
         .about-text{
-            padding: 20px;
+            padding: 50px;
+            letter-spacing: 0.15rem;
+            color: #17415A;
+
+            h4{
+                font-weight: bold;
+                text-transform: unset;
+                color: #17415A;
+            }
+
+            ul{
+                display: flex;
+                gap: 10px;
+
+                a{
+                  color:#17415A;
+                  transition: 0.5s;
+
+                  &:hover{
+                      color:#038788;
+                    }
+                  i{
+                      font-size: 25px; 
+                  }  
+                }
+
+                
+            }
         }
 
         .about-picture{
+            margin: 0 20px;
+
             img {
-                width: 200px;
-                height: 250px;
-                margin-right: 20px;
+                margin: 0 auto;
+                width: 300px;
+                height: 300px;
+                object-fit: cover;
+                display: block;
+                border-radius: 50%;
+                background-color: #fff;
+                border: 1px solid #dee2e6;
+                padding: .25rem;
             }
         }
     }   
