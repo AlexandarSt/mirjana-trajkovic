@@ -3,28 +3,6 @@
     margin: 0 50px;
     text-transform: uppercase;
 
-    h4{
-        margin-left: 100px;
-        color: darkgrey;
-        width:10%;
-        text-align:right;
-        border-bottom: 1px solid darkgrey;
-        line-height:0.1em; 
-        font-size: 12px;
-        letter-spacing: 0.2rem;
-
-        span{
-            background:#E2E5E4;
-            padding:0 10px;
-            font-weight: bold;
-        }
-    }
-
-    h3{
-        margin:0 0 70px 100px;
-        color: #17415A;
-    }
-
     .contact{
         display: grid;
         grid-template-columns: 37% 57%;
