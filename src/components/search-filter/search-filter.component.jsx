@@ -7,9 +7,9 @@ const SearchFilter = () => {
     return(
         <div className='search-filter'>
             <ul style={{'margin' : '0px'}}>
-                <li><Link>All</Link></li>
-                <li><Link>Design</Link></li>
-                <li><Link>Patterns</Link></li>
+                <li><Link to='no-refference'>All</Link></li>
+                <li><Link to='no-refference'>Design</Link></li>
+                <li><Link to='no-refference'>Patterns</Link></li>
             </ul>
         </div>
     )

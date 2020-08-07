@@ -20,7 +20,7 @@ const Form = () => {
         console.log('reCaptcha loaded')
     }
     return(
-    <Animated animationIn="fadeInLeft" animationInDuration={1000} isVisible={true}>
+    <Animated animationIn="fadeInLeft" animationInDuration isVisible={true}>
         <div className='form-div'>
             <form className="form"> 
                 <p className="name">

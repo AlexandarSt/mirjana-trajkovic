@@ -1,12 +1,34 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
+import GALLERY_DATA from '../../localdata/gallery.data';
+import {motion} from 'framer-motion';
 
 import './gallery.styles.scss';
 
-const Gallery = () => {
+const Gallery = ({setSelectedImg}) => {
+
+    const [images, setImages] = useState(GALLERY_DATA);
+
+    // useEffect(() => {
+        
+    // }, [])
 
     return(
-        <div className='gallery'>
-            Ovo je galerija
+        <div className='gallery'>    
+            {images.map(image => {
+                return (
+                <motion.div className='img-wrap' key={image.id}
+                layout
+                whileHover={{ opacity: 1 }}s
+                onClick={() => setSelectedImg(image.imageUrl)}
+                >
+                    <motion.img src={image.imageUrl} alt="Art"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ delay: 0.5 }}
+                    />
+                </motion.div>
+                )  
+            })}
         </div>
     )
 }

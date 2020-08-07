@@ -1,18 +1,24 @@
 .search-filter{
     // margin: 50px 100px;
+    ul {
+        display:flex;
+        gap: 40px;
 
-    li{
-        padding-bottom: 30px;
-        font-weight: bold;
-        text-transform: uppercase;
-
-        a{
-            color: #17415A;
-        }
-
-        a:hover{
-            transition: 0.5s;
-            color:#038788;
+        li{
+            padding-bottom: 30px;
+            font-weight: bold;
+            text-transform: uppercase;
+    
+            a{
+                color: #17415A;
+            }
+    
+            a:hover{
+                transition: 0.5s;
+                color:#038788;
+            }
         }
     }
+
+    
 }

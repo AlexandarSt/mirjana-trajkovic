@@ -26,7 +26,7 @@ const HomePage = () => {
 					beautiful designs with love.</p>
 				<ul>
 					<li>
-						<a href='no-refference'>
+						<a href='https://www.linkedin.com/in/mirjana-trajkovic-9900a522/'>
 						<i className="fa fa-linkedin-square" aria-hidden="true"></i>
 						</a>
 					</li>
