@@ -1,16 +1,12 @@
-import React, {useEffect, useState} from 'react';
-import GALLERY_DATA from '../../localdata/gallery.data';
+import React from 'react';
+// import GALLERY_DATA from '../../localdata/gallery.data';
 import {motion} from 'framer-motion';
 
 import './gallery.styles.scss';
 
-const Gallery = ({setSelectedImg}) => {
+const Gallery = ({setSelectedImg, images}) => {
 
-    const [images, setImages] = useState(GALLERY_DATA);
-
-    // useEffect(() => {
-        
-    // }, [])
+    // const [images, setImages] = useState(GALLERY_DATA);
 
     return(
         <div className='gallery'>    
