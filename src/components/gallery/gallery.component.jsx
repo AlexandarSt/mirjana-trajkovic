@@ -11,6 +11,7 @@ const Gallery = ({setSelectedImg, images}) => {
     return(
         <div className='gallery'>    
             {images.map(image => {
+                // console.log(images)
                 return (
                 <motion.div className='img-wrap' key={image.id}
                 layout

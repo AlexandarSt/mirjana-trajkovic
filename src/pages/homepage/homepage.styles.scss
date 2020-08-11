@@ -10,15 +10,16 @@
     .home-bckgrnd{
         background: url('../../assets/back.jpg') no-repeat center;
         position: relative;
-        width: 100%;
+        // width: 100%;
+        width: 100vw;
         height: 100vh;
-        background-size: cover;
+        // background-size: cover;
         // opacity: .2;
         // transform: scale(1.07);
         // -webkit-transition: opacity .6s ease-in-out, transform 2s ease .7s;
         // -moz-transition: opacity .6s ease-in-out, transform 2s ease .7s;
         // transition: opacity .6s ease-in-out, transform 2s ease .7s;
-        // transform: scale(1);    
+        // transform: scale(1); 
     }
 
     .section-about{

@@ -1,4 +1,18 @@
 .about{
-    padding-top: 200px;
+    padding-top: 150px;
     margin: 0 50px;
+
+    .about-content{
+        display: flex;
+        gap: 150px;
+        justify-content: center;
+        margin-top: 100px;
+
+        .about-picture{
+            
+            img{
+                height: 700px;
+            }
+        }
+    }
 }

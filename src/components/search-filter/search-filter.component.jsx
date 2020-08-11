@@ -3,24 +3,27 @@ import {Link} from 'react-router-dom';
 
 import './search-filter.styles.scss';
 
-const SearchFilter = ({images, setImages}) => {
+const SearchFilter = ({images, setImages, setGalleryImg}) => {
 
-    const showAllImages = (pictures, setImages) => {
-        setImages(pictures);
+    const showAllImages = (images,setImages) => {
+        setImages([])
+        setGalleryImg(images)
     }
 
     const showDesignImages = (images, setImages) => {
-        const data = images.filter((image) => {
+         const data = images.filter((image) => {
             return image.galleryName === 'design'
         }) 
-        setImages(data) 
+        setImages([])
+        setGalleryImg(data)
     }
 
     const showPatternImages = (images, setImages) => {
         const data = images.filter((image) => {
             return image.galleryName === 'pattern'
         }) 
-        setImages(data) 
+        setImages([])
+        setGalleryImg(data) 
     }
 
     return(

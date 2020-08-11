@@ -1,9 +1,29 @@
 .work{
     padding-top: 150px;
     margin: 0 50px;
-    text-transform: uppercase;
 
     .sf-ga {
         margin: 100px 100px;
+    }
+}
+
+.loadmore{
+    border: 1px solid #038788;
+    cursor: pointer;
+    width: 200px;
+    color: #E2E5E4;
+    font-weight: bold;
+    background-color: #17415A;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 15px;
+    margin-top: 30px;
+    position: relative;
+    left: calc(50% - 100px);
+
+    &:hover{
+        color: #038788;
+        border-color: #038788;
+        background-color: #E2E5E4;
     }
 }
