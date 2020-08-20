@@ -331,7 +331,7 @@ p {
     text-transform: uppercase;
     line-height: 1.5em;
     transition: color .3s ease .4s;
-    color: #151515;
+    color: #17415A;
 }
 .hamburger.is-active .hamburger-label {
     color: #fff !important;
@@ -365,7 +365,7 @@ p {
     position: absolute;
     width: 30px;
     height: 3px;
-    background-color: #151515;
+    background-color: #17415A;
     transition: all .3s ease .5s;
 }
 .hamburger-inner:before {

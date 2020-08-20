@@ -9,7 +9,7 @@ const INITIAL_STATE = {
   open: false
 }
 
-const Header = () => {
+const Header = ({style}) => {
 
 const [state, setState] = useState(INITIAL_STATE)
 
@@ -20,7 +20,7 @@ const toggleMenu = () => {
 } 
 
 return (
-    <div className="ms-header navbar-white">
+    <div className={style} >
         {/* <header className="ms-header navbar-white"> */}
         <nav className={`${state.open && 'is-visible'} ms-nav`}>
           <div className="ms-logo">

@@ -19,7 +19,7 @@
 // }
 
 // #form-div {
-// 	background: #E2E5E4;
+// 	background: white;
 // 	padding-left:35px;
 // 	padding-right:35px;
 // 	padding-top:35px;
@@ -39,7 +39,7 @@
 	font-size: 14px;
 	border-radius: 0;
 	line-height: 22px;
-	background-color: #E2E5E4;
+	background-color: white;
 	padding: 13px 13px 13px 13px;
 	margin-bottom: 10px;
 	width:100%;
@@ -52,7 +52,7 @@
 }
 
 .feedback-input:focus{
-	background: #E2E5E4;
+	background: white;
 	box-shadow: 0;
 	color: #17415A;
 	outline: none;
@@ -73,13 +73,13 @@ textarea {
 
 input:hover, textarea:hover,
 input:focus, textarea:focus {
-    background-color:#E2E5E4;
+    background-color:white;
     border-bottom: 1px solid #038788;
     color: #038788;
 }
 
 input:focus, textarea:focus{
-	border-bottom: 2px solid #038788 !important;
+	border-bottom: 1px solid #038788 !important;
 }
 
 #button-blue{
@@ -90,7 +90,7 @@ input:focus, textarea:focus{
     border: 1px solid #038788;
 	cursor:pointer;
 	background-color: #17415A;
-	color:#E2E5E4;
+	color:white;
 	font-size:18px;
 	padding-top:22px;
 	padding-bottom:22px;
@@ -102,7 +102,7 @@ input:focus, textarea:focus{
 }
 
 #button-blue:hover{
-	background-color: #E2E5E4;
+	background-color: white;
 	color: #038788;
     border: 1px solid #038788;
 }
@@ -110,6 +110,7 @@ input:focus, textarea:focus{
 form button {
 	margin-bottom: 10px;;
 }
+
 	
 // .submit:hover {
 // 	color: #3498db;

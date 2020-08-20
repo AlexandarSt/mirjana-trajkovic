@@ -14,7 +14,7 @@ function App(props) {
 
   return (
     <div>
-      <Header />
+      {props.location.pathname === '/' ? <Header style='ms-header navbar-white'/> : <Header style='ms-header'/>}
       <Switch>
       <ScrollToTop>  
         <Route exact path='/' component={HomePage} />

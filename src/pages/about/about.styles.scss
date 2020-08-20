@@ -37,29 +37,44 @@
             }
             h4{
                 margin-top: 10px;
-                // border-bottom: 1px solid grey;
-                // display: inline-block;
-                // padding-bottom: 30px;
+                border-width: 3px;
+                display: inline-block;
+                padding-bottom: 30px;
                 color: #17415A;
-                width: 45%;
+                text-align: left;
+                background: /* gradient can be an image */
+                linear-gradient(
+                to left, 
+                lightgrey 0%,
+                #038788 12%,
+                #17415A 47%,
+                lightgrey 100%
+                )
+                left 
+                bottom
+                white   
+                no-repeat; 
+                background-size:100% 1px ;
             }
             p{
                 font-size: 1rem;
                 color: #17415A;
             }
-            .linediv{
-                background: #17415A;
-                width: 41%;
-                margin-bottom: 50px;
+
+
+            // .linediv{
+            //     background: #17415A;
+            //     max-width: 30%;
+            //     margin-bottom: 50px;
                 
-                .line{
-                    // width: 80%;
-                    background-color: #038788;
-                    border: 0;
-                    height: 1px;
-                    background-image: linear-gradient(to right, lightgrey, #038788, lightgrey);
-                } 
-            }
+            //     .line{
+            //         // width: 80%;
+            //         background-color: #038788;
+            //         border: 0;
+            //         height: 1px;
+            //         background-image: linear-gradient(to right, lightgrey, #038788, lightgrey);
+            //     } 
+            // }
         }
     }
 }

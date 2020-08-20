@@ -13,7 +13,7 @@ const About = () => (
             <div className='about-me-text'>
                 <span>Hello, I am</span>
                 <h4>Mirjana Trajković</h4>
-                <div className="linediv"><hr className="line"/></div>
+                {/*<div className="linediv"><hr className="line"/></div>*/}
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor risus augue, at pulvinar libero fringilla et.
                      Nam in vestibulum mi. Integer nec felis at tortor maximus convallis ut sed ante. 
                      Nam lobortis, lorem in suscipit facilisis, metus augue ultricies sem, eget mattis urna turpis sit amet odio. 

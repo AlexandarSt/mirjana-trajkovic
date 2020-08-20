@@ -4,7 +4,7 @@ const GALLERY_DATA = [
         galleryName: 'design',
         name: 'Slika 1',
         imageUrl: '/design/slika1.jpg',
-        about: ''
+        about: 'This is the forest design with greenish and brownish dominating colors'
     },
     {
         id: 2,
